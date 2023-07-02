@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+  
+    <link rel="stylesheet" href="css/style,css">
+    
+    <style>
+        /* css reset  */
+        body{
+            margin: 0;
+            padding: 0;
+            background: url(img/man-ge923f2ab5_1920.jpg);
+            color: white;
+
+        }
+        .left{
+/* border: 2px solid red; */
+/* color: white; */
+display: inline-block;
+position: absolute;
+  left:10px;
+ top: 10px;
+        }
+
+        .left img{
+            width: 100px;
+            height: 50px;
+        }
+        .left div{
+            text-align: center;
+        }
+
+        .mid{
+            /* border: 2px solid rgb(0, 255, 72); */
+            /* color: white; */
+            display: block;
+            width: 33%;
+            margin: 10px auto;
+            position: absolute;
+            right: 37.5em;
+        }
+
+
+        .right{
+            /* border: 2px solid rgb(115, 0, 255); */
+            /* color: white; */
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+
+        .navbar{
+            display: inline-block;
+            width: 35rem;
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 17px;
+        }
+
+        .navbar li a{
+            color: white;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover{
+color: red;
+text-decoration:underline;
+        }
+        .btn{
+            margin: 0px 5px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 4px 10px;
+            border: 2px solid grey;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+           background-color:rgba(18, 3, 3, 0.039) ; 
+        }
+        .mid .navbar li a{
+            font-size: 1.5rem;
+        }
+        .container{
+            /* border: 2px solid white; */
+            margin: 70px 80px;
+            padding:40px;
+            width: 40%;
+            border-radius: 28px;
+        }
+        .group-form input{
+            text-align: center;
+            display: block;
+            width: 300px;
+            padding: 6px;
+            border: 2px solid black;
+            margin: 4px;
+            border-radius: 20px;
+        }
+        form .btn{
+            width: 315px;
+            margin:4px;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+<img src="img/logo.jpg" alt="">
+<div>Saurav Fitness</div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+<button class="btn">Call us Now</button>
+<button class="btn">Email us</button>
+        </div>
+    </header><br><br><br>
+
+    <div class="container">
+    <h1>Join the best gym of Dehradun now</h1>
+    <form action="">
+      <div class="group-form">
+        <input type="text" placeholder="Enter your name">
+      </div>
+      <div class="group-form">
+        <input type="email" placeholder="Email ID">
+      </div>
+      <div class="group-form">
+        <input type="tel" placeholder="Contact no.">
+      </div>
+      <div class="group-form">
+        <input type="text" placeholder="Address">
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
